@@ -71,4 +71,4 @@ group :test do
   gem "webdrivers"
 end
 gem 'cloudinary'
-gem "figaro" 
+gem "figaro"
