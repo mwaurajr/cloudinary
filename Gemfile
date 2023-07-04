@@ -73,3 +73,5 @@ end
 gem 'cloudinary'
 gem "figaro"
 gem 'faker'
+
+gem "tailwindcss-rails", "~> 2.0"

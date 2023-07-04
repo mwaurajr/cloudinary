@@ -10,3 +10,4 @@ require 'faker'
 10.times do
   User.create(name: Faker::Name.female_first_name)
 end
+puts "done seeding data..."

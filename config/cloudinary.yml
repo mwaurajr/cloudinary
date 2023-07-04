@@ -1,0 +1,11 @@
+development: 
+  cloud_name: "dewhovwdg"
+  api_key: "665724724329664"
+  api_secret: "ak3-iQo9T-PV33iBbx9FKQ5tO20"
+  secure: true
+
+production:
+  cloud_name: "dewhovwdg"
+  api_key: "665724724329664"
+  api_secret: "ak3-iQo9T-PV33iBbx9FKQ5tO20"
+  secure: true
