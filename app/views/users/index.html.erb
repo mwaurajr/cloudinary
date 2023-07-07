@@ -1,11 +1,9 @@
-<div>
-  <h1 class="text-3xl font-bold mb-4">All Users</h1>
-
-  <% @users.each do |user| %>
-    <div>
-      <h2><%= user.name %></h2>
+<div class="grid grid-cols-5 gap-4">
+  <% @users.each_with_index do |user, index| %>
+    <div class="<%= index < 2 ? 'col-span-2' : 'col-span-1' %> m-auto px-4 py-4 max-w-4xl">
+      <h2 class="text-2xl font-bold text-center"><%= user.name %></h2>
       <% if user.avatar.attached? %>
-        <%= cl_image_tag user.avatar %>
+        <%= image_tag user.avatar, class: "rounded-full hover:bg-sky-700 cursor-pointer shadow-lg shadow-cyan-500/50 w-full h-full" %>
       <% else %>
         <p>No avatar available</p>
       <% end %>
