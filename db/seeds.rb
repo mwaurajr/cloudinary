@@ -7,7 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 require 'faker'
 
-10.times do
-  User.create(name: Faker::Name.female_first_name)
+5.times do
+  User.create(name: Faker::FunnyName.name)
 end
 puts "done seeding data..."
