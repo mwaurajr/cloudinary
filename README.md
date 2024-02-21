@@ -29,8 +29,8 @@ Cloudinary is a powerful cloud-based media management platform that provides var
 
 Follow these steps to set up the project locally:
 
-1. Clone this repository: `git clone https://github.com/your-username/cloudinary-rails-demo.git`
-2. Navigate to the project directory: `cd cloudinary-rails-demo`
+1. Clone this repository: `git clone git@github.com:mwaurajr/cloudinary.git`
+2. Navigate to the project directory: `cd cloudinary`
 3. Install dependencies: `bundle install`
 4. Set up the database: `rails db:create db:migrate`
 5. Start the Rails server: `rails server`
