@@ -33,7 +33,7 @@ Follow these steps to set up the project locally:
 2. Navigate to the project directory: `cd cloudinary`
 3. Install dependencies: `bundle install`
 4. Set up the database: `rails db:create db:migrate`
-5. Start the Rails server: `rails server`
+5. Start the Rails server: `bin/dev`
 
 ## Configuration
 
